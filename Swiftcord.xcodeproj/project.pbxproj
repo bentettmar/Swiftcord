@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2F0E2DA280A9FEF0065F4B3 /* TypingStartEvt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F0E2D9280A9FEE0065F4B3 /* TypingStartEvt.swift */; };
 		DA2384A127CB9714009E15E0 /* CustomiseFontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2384A027CB9714009E15E0 /* CustomiseFontFamily.swift */; };
 		DA2384BA27CBC2CE009E15E0 /* GintoBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA2384B827CBC2CE009E15E0 /* GintoBold.otf */; };
 		DA2384BB27CBC2CE009E15E0 /* GintoMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA2384B927CBC2CE009E15E0 /* GintoMedium.otf */; };
@@ -15,7 +16,6 @@
 		DA2384C427CCFEF3009E15E0 /* MessageReadAck.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2384C327CCFEF3009E15E0 /* MessageReadAck.swift */; };
 		DA2384C627CD1921009E15E0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2384C527CD1921009E15E0 /* LoadingView.swift */; };
 		DA2802792808337B00B14E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2802782808337B00B14E5C /* AppDelegate.swift */; };
-		DA28027D280957F200B14E5C /* TypingStartEvt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA28027C280957F200B14E5C /* TypingStartEvt.swift */; };
 		DA28027F28095E3100B14E5C /* LoggerInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA28027E28095E3000B14E5C /* LoggerInit.swift */; };
 		DA32EF2427C6249000A9ED72 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32EF2327C6249000A9ED72 /* MessagesView.swift */; };
 		DA32EF2627C62E6900A9ED72 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32EF2527C62E6900A9ED72 /* MessageView.swift */; };
@@ -123,6 +123,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2F0E2D9280A9FEE0065F4B3 /* TypingStartEvt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingStartEvt.swift; sourceTree = "<group>"; };
 		DA23843827CB934D009E15E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DA2384A027CB9714009E15E0 /* CustomiseFontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomiseFontFamily.swift; sourceTree = "<group>"; };
 		DA2384B827CBC2CE009E15E0 /* GintoBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GintoBold.otf; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 		DA2384C327CCFEF3009E15E0 /* MessageReadAck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageReadAck.swift; sourceTree = "<group>"; };
 		DA2384C527CD1921009E15E0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		DA2802782808337B00B14E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA28027C280957F200B14E5C /* TypingStartEvt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TypingStartEvt.swift; path = "../../../../../../../../../../Macintosh HD/Users/vinkwok/XcodeProjects/Swiftcord/Swiftcord/DiscordAPI/Objects/Gateway/Event/TypingStartEvt.swift"; sourceTree = "<group>"; };
 		DA28027E28095E3000B14E5C /* LoggerInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerInit.swift; sourceTree = "<group>"; };
 		DA32EF2327C6249000A9ED72 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		DA32EF2527C62E6900A9ED72 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -481,7 +481,7 @@
 				DA4A88FC27C35FC700720909 /* GuildSchEvtUserEvt.swift */,
 				DA4A890027C360D300720909 /* ReadyEvt.swift */,
 				DA4A890427C383DD00720909 /* MessageDelete.swift */,
-				DA28027C280957F200B14E5C /* TypingStartEvt.swift */,
+				B2F0E2D9280A9FEE0065F4B3 /* TypingStartEvt.swift */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -668,6 +668,7 @@
 				DA32EF4C27C8BF5000A9ED72 /* TagCloudView.swift in Sources */,
 				DA4A889127C0AF3200720909 /* Persistence.swift in Sources */,
 				DA520AC027D3306D009FD740 /* loginBG.swift in Sources */,
+				B2F0E2DA280A9FEF0065F4B3 /* TypingStartEvt.swift in Sources */,
 				DA32EF5627CA6DF900A9ED72 /* URLMimeType.swift in Sources */,
 				DA2384C627CD1921009E15E0 /* LoadingView.swift in Sources */,
 				DA520AD727D4D17A009FD740 /* MiscSettingsView.swift in Sources */,
@@ -732,7 +733,6 @@
 				DA4A88BA27C13BDF00720909 /* Emoji.swift in Sources */,
 				DA32EF3427C6861800A9ED72 /* StickerView.swift in Sources */,
 				DA4A891627C4B06500720909 /* GatewayCachedState.swift in Sources */,
-				DA28027D280957F200B14E5C /* TypingStartEvt.swift in Sources */,
 				DA4A88C427C1442300720909 /* Sticker.swift in Sources */,
 				DA4A88A227C1244200720909 /* Embed.swift in Sources */,
 				DA4A88FF27C3609900720909 /* ApplicationObj.swift in Sources */,
@@ -882,7 +882,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Swiftcord/Preview Content\"";
-				DEVELOPMENT_TEAM = Q382QLKDG3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -910,7 +910,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Swiftcord/Preview Content\"";
-				DEVELOPMENT_TEAM = Q382QLKDG3;
+				DEVELOPMENT_TEAM = FM48FZSNUJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
